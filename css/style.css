@@ -89,7 +89,7 @@ nav ul li a {
 }
 
 .banner-content {
-    width: 60%;
+    width: 80%;
 }
 
 .banner-heading {
@@ -126,7 +126,6 @@ nav ul li a {
 .position-container {
     display: flex;
     justify-content: space-between;
-    /* border: 2px solid lemonchiffon; */
     width: 500px;
 }
 
@@ -205,3 +204,40 @@ color: gray;
 }
 
 /* change your habit part end here */
+
+/* team part css start here  */
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+}
+.team-box{
+    max-width: 325px;
+    position: relative;
+}
+.team-box img{
+    width: 326px;
+    height: 272px;
+    border-radius: 20px;
+   
+}
+
+.team-text{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+}
+.team-title{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* team part css end here  */
