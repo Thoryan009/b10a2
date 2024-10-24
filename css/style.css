@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+    font-family: "Inter", serif;
+
+}
+
+/* common styles  */
+.btn-primary {
+    background-color: red;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 40px;
+    border: none;
+}
+
+.description {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+/* header part staart  */
+.header {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h4 {
+    font-size: 36px;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.home {
+    padding: 8px 20px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+
+.hamburg {
+    display: none;
+}
+
+/* baanner paart start here */
+
+/* .banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 60%;
+}
+
+.banner-heading {
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.shape {
+    /* font-style: italic; */
+}
+
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn-2 {
+    margin-left: 10px;
+    color: white;
+    background-color: transparent;
+    padding: 16px 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+
+.banner-image{
+    position: relative;
+    /* border:  2px solid green; */
+}
+
+.position-container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid lemonchiffon; */
+    width: 500px;
+}
+
+
+
+.video-tuitorial{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    bottom: 70px;
+    left: -50px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+}
+
+.red {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.position-text h3, .free-workout h3{
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.free-workout{
+    position: absolute;
+    bottom: 350px;
+    left: 250px;
+    padding: 25px 30px;
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+}
+ */
+
+
+
+
+
+
+
+/* baanner paart end here */
