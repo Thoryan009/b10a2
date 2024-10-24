@@ -63,7 +63,7 @@ nav ul li a {
 
 /* baanner paart start here */
 
-/* .banner {
+.banner {
     display: flex;
     justify-content: space-between;
 }
@@ -146,7 +146,7 @@ nav ul li a {
     border-radius: 12px;
     background-color: rgba(48, 48, 48, 0.54);
 }
- */
+ 
 
 
 
