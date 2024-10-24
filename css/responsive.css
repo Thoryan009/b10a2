@@ -19,12 +19,13 @@
     .banner-heading {
         font-size: 2.3rem;
     }
-
-    /* .btn-2 {
-        margin-left: 0px;
-        margin-top: 20px;
-    } */
-    .banner-image img{
+    .btn-primary{
+        padding: 10px 20px;
+    }
+    .btn-2 {
+        padding: 10px 20px;
+    }
+    .banner-image img {
         width: 100%;
     }
 
@@ -42,14 +43,41 @@
         padding: 8px 10px;
     }
 
-    .habit-container{
+    .habit-container {
         gap: 50px;
         flex-direction: column;
         /* border: 2px solid green; */
-       align-items : center;
+        align-items: center;
     }
 
-    .team-container{
+    .run-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .bmi-container{
+        flex-direction: column;
+    }
+    input,select{
+        width: 40%;
+    }
+    .bmi-form{
+        margin-left: 0;
+    }
+
+    .team-container {
         grid-template-columns: repeat(1, 1fr);
+       justify-content: center;
+       padding: 0 auto;
+    }
+    .team-box img {
+        width: 286px;
+        height: 272px;
+        border-radius: 20px;
+    
+    }
+
+    .footer-container {
+        flex-direction: column;
     }
 }

@@ -176,68 +176,227 @@ main {
     margin: 0 auto;
 }
 
-.habit-container{
+.habit-container {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
     /* border: 2px solid green; */
 }
-.habit-box{
+
+.habit-box {
     max-width: 230px;
     text-align: center;
 }
-.havit-img img{
+
+.havit-img img {
     border: 2px solid rgb(68, 68, 68);
     border-radius: 50%;
 }
+
 .havit-title {
     font-size: 18px;
     font-weight: 600;
     color: white;
-    margin: 10px 0 0 0 ;
+    margin: 10px 0 0 0;
     padding: 0;
 }
-.havit-description{
+
+.havit-description {
     font-size: 14px;
-font-weight: 400;
-color: gray;
+    font-weight: 400;
+    color: gray;
 }
 
 /* change your habit part end here */
 
+
+
+
+/* run  part start  */
+
+.run-container {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    padding: 54px;
+    gap: 175px;
+    border-radius: 20px;
+}
+
+.run-img {
+    max-width: 366px;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/* run  part end  */
+
+/* bmi part strt here  */
+.bmi-container{
+    margin: 100px 0;
+    display: flex;
+    /* gap: 50px; */
+}
+.bmi-form{
+    margin-left: 100px;
+}
+.bmi-header{
+    margin: 20px 0;
+    font-size: 2rem;
+    color: white;
+    font-weight: 900;
+
+    text-align: center;
+
+}
+form{
+    /* border: 2px solid green; */
+   margin: 30px 0;
+   
+
+}
+form button{
+    display: block;
+    margin: 20px 0;
+}
+input{
+    padding: 15px 10px;
+    width: 40%;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    background-color:  rgb(54, 54, 54);
+}
+select{
+    color: rgb(119, 119, 119);
+    padding: 15px 10px;
+    width: 43%;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    background-color:  rgb(54, 54, 54);
+}
+select:last-child{
+    padding: 15px 10px;
+    width: 88%;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    background-color:  rgb(54, 54, 54);
+}
+
+table , tr, td, th{
+    border: 2px  solid rgb(54, 54, 54);
+     border-collapse: collapse;
+}
+table th{
+    color: white;
+    padding: 20px 50px;
+
+}
+tr td{
+    color: rgb(109, 108, 108);
+    padding: 20px 50px;
+    /* border: 2px solid saddlebrown;  */
+    /* border-collapse: collapse; */
+}
+
+
+/* bmi part end here  */
+
+
+
 /* team part css start here  */
-.team-container{
+.team-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 20px;
     background-color: rgb(26, 26, 26);
     border-radius: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
-.team-box{
+
+.team-box {
     max-width: 325px;
     position: relative;
 }
-.team-box img{
+
+.team-box img {
     width: 326px;
     height: 272px;
     border-radius: 20px;
-   
+
 }
 
-.team-text{
+.team-text {
     position: absolute;
     bottom: 50px;
     left: 45px;
 }
-.team-title{
+
+.team-title {
     font-size: 20px;
     color: white;
     margin: 0;
     padding: 0;
 }
 
-
-
-
 /* team part css end here  */
+
+/* footer part start here  */
+footer {
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    margin: 50px 0;
+}
+
+.footer {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: rgb(27, 27, 27);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 50px 0;
+}
+
+.footer-text {
+    max-width: 440px;
+}
+
+.footer-title {
+    font-size: 50px;
+    margin-top: 0px;
+    color: red;
+    /* padding: 0; */
+}
+
+.footer-content ul li {
+    list-style: none;
+    color: gray;
+    margin-left: -40px;
+    margin-bottom: 10px;
+}
+
+hr {
+    background-color: rgb(36, 35, 35);
+}
+
+.small {
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid green; */
+}
+
+
+/* footer part end here  */
