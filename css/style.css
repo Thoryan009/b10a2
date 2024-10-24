@@ -19,6 +19,26 @@ body {
     color: gray;
 }
 
+.common-part {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 670px;
+}
+
+.common-heading {
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.common-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
 /* header part staart  */
 .header {
     max-width: 1080px;
@@ -86,6 +106,7 @@ nav ul li a {
 
 .btn {
     margin-top: 20px;
+    /* border: 2px solid green; */
 }
 
 .btn-2 {
@@ -97,12 +118,12 @@ nav ul li a {
     border: 2px solid white;
 }
 
-.banner-image{
+.banner-image {
     position: relative;
     /* border:  2px solid green; */
 }
 
-.position-container{
+.position-container {
     display: flex;
     justify-content: space-between;
     /* border: 2px solid lemonchiffon; */
@@ -111,7 +132,7 @@ nav ul li a {
 
 
 
-.video-tuitorial{
+.video-tuitorial {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -130,7 +151,8 @@ nav ul li a {
     border-radius: 50%;
 }
 
-.position-text h3, .free-workout h3{
+.position-text h3,
+.free-workout h3 {
     font-size: 24px;
     font-weight: 900;
     margin: 0;
@@ -138,7 +160,7 @@ nav ul li a {
     color: white;
 }
 
-.free-workout{
+.free-workout {
     position: absolute;
     bottom: 350px;
     left: 250px;
@@ -146,12 +168,40 @@ nav ul li a {
     border-radius: 12px;
     background-color: rgba(48, 48, 48, 0.54);
 }
- 
-
-
-
-
-
-
 
 /* baanner paart end here */
+
+/* change your habit part start here */
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.habit-container{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+.habit-box{
+    max-width: 230px;
+    text-align: center;
+}
+.havit-img img{
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 50%;
+}
+.havit-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0 0 0 ;
+    padding: 0;
+}
+.havit-description{
+    font-size: 14px;
+font-weight: 400;
+color: gray;
+}
+
+/* change your habit part end here */
